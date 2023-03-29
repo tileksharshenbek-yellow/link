@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Recruiter extension for Linkedin",
+  "description": "Extension for recruiters in Linkedin to review candidates",
+  "version": "1.0",
+  "icons": {
+    "16": "noComment.png",
+    "32": "noComment.png",
+    "48": "noComment.png",
+    "128": "noComment.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Default title"
+  }
+}
